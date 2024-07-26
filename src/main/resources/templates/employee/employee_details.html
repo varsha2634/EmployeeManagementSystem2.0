@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        main {
+            padding: 20px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .details {
+            margin-bottom: 20px;
+        }
+        .details label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Employee Details</h1>
+</header>
+<main>
+    <div class="container">
+        <div class="details">
+            <label>ID:</label>
+            <p>1</p>
+        </div>
+        <div class="details">
+            <label>Name:</label>
+            <p>John Doe</p>
+        </div>
+        <div class="details">
+            <label>Email:</label>
+            <p>john.doe@example.com</p>
+        </div>
+        <div class="details">
+            <label>Job Title:</label>
+            <p>Software Engineer</p>
+        </div>
+        <div class="details">
+            <label>Department:</label>
+            <p>IT</p>
+        </div>
+        <div class="details">
+            <label>Hire Date:</label>
+            <p>2021-01-10</p>
+        </div>
+        <a href="/employee/edit/1">Edit</a>
+        <a href="/employee/delete/1">Delete</a>
+    </div>
+</main>
+<footer>
+    <p>&copy; 2024 Employee Management System. All rights reserved.</p>
+</footer>
+</body>
+</html>
